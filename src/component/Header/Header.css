@@ -1,0 +1,84 @@
+.header-container {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  padding: 18px 50px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header-container,
+.top-prices,
+.top-prices-wrap {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.connect-wallet-btn {
+  font-weight: 700;
+  padding: 11px 20px;
+  background: red;
+}
+.connect-button-wrap button:hover {
+  background: rgb(53, 41, 41);
+  color: #f8cd0b;
+}
+
+.top-prices p {
+  font-size: 1.2em;
+  color: #c6a514;
+}
+.connect-button-wrap button {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.top-prices {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  margin: 0 100px;
+  font-size: 12px;
+}
+.top-prices span {
+  font-weight: 700;
+}
+.logo {
+  width: 180px;
+  cursor: pointer;
+}
+span {
+  font-size: 1.4em;
+  color: #fff;
+}
+
+@media screen and (max-width: 890px) {
+  .header-container {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .top-prices{
+    margin: 20px;
+  }
+  .top-prices-wrap{
+    order: 3;
+    align-self: center !important;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo{
+    content : url("../../assets/images/smalLogo.svg");
+    width: 50px;
+  }
+}
+

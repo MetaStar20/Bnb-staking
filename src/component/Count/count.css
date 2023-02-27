@@ -1,0 +1,141 @@
+@font-face {
+  /* font-family: 'Technology';
+  src: url("../../assets/font/technology/Technology.ttf"); */
+  font-family: 'digital-7 (mono)';
+  src: url("../../assets/font/digital-7 (mono).ttf");
+}
+
+.row {
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  display: flex;
+  justify-content: center;
+}
+
+.row h4 {
+  color: #c5a516;
+}
+
+
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.noselect {
+  width: 300px;
+  height: 100px;
+  cursor: pointer;
+  font-size: 40px;
+  color : white;
+  font-weight: 900;
+  letter-spacing: 5px;
+  background: transparent;
+  transition: 500ms;
+}
+
+.noselect:after {
+  content: "";
+  position: absolute;
+  transform: translateX(-55px) translateY(-40px);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: 0px 0px 50px transparent;
+  transition: 500ms;
+}
+
+/* .noselect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+} */
+
+/* .noselect:hover:after {
+  background: white;
+  box-shadow: 0px 0px 20px #ffc421, 0px 0px 30px #ffc421,
+    inset 0px 0px 10px #ffc421;
+  animation: spin 1s infinite linear;
+} */
+
+/* @keyframes spin {
+  25% {
+    transform: translateX(-25px) translateY(-35px);
+    width: 15px;
+    height: 15px;
+  }
+  50% {
+    transform: translateX(-55px) translateY(-30px);
+    width: 5px;
+    height: 5px;
+  }
+  75% {
+    transform: translateX(-85px) translateY(-35px);
+    width: 15px;
+    height: 15px;
+  }
+} */
+
+
+.clock {
+  font-family: 'digital-7 (mono)';
+  /* font-family: 'Technology'; */
+  /* src :  url(../../assets/font/digital-7.ttf) format('ttf'); */
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+
+.time .format {
+  font-size: 24px;
+}
+
+.time .item {
+  text-align: center;
+
+}
+
+.clock .time {
+  display: flex;
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+.clock .date {
+  letter-spacing: 0.1em;
+  font-size: 24px;
+}
+.clock .text {
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  padding: 20px 0 0;
+}
+
+.noselect:focus {
+  outline: none;
+}
+
+.day::after {
+  content: "Days";
+}
+.hour::after {
+  content: "Hours";
+}
+.min::after {
+  content: "Minutes";
+}
+.sec::after {
+  content: "Seconds";
+}
+
+@media screen and (max-width: 500px) {
+  .clock .time{
+   font-size: 40px;
+ }  
+}
+

@@ -1,0 +1,117 @@
+.body-container,
+.global-stats-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.body-container {
+  max-width: 80vw;
+  width: 80vw;
+  -webkit-align-items: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.top-title {
+  margin-left: 27px;
+  margin-top: 20px;
+  /* width: 550px; */
+  color: #fbcf0f;
+}
+
+.global-stats-container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.global-stats-box hr {
+  width: 100%;
+  opacity: 0.1;
+}
+
+.global-stats-wrap {
+  width: 60%;
+}
+.global-stats-box {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background: linear-gradient(255.12deg, #242444 70%, #282844);
+  border-radius: 10px;
+  margin: 0 20px;
+  padding: 30px 15px;
+}
+.stat-box-wrap {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 20px;
+  
+}
+.wallet-stats-wrap {
+  width: 40%;
+}
+.stat-box-wrap div {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.stat-box-wrap p {
+  color: #bfb8c5;
+  margin-bottom: 3px;
+}
+.stat-box-wrap span {
+  font-size: 14px;
+  color: #f5f5f5;
+  font-weight: 700;
+}
+
+h5 {
+  margin: 0 !important;
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: #e2e2e2;
+}
+@media screen and (max-width: 890px) {
+  .body-container {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .global-stats-box {
+    margin: 0 0 20px;
+    width: 100%;
+  }
+  .global-stats-box {
+    margin: 0 0 20px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .top-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .top-title {
+    margin-left: auto;
+    font-size: 24px;
+  }
+}
+

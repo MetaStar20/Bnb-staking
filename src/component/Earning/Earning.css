@@ -1,0 +1,135 @@
+.withdraw-referal-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.withdraw-wrap {
+  background: #242444;
+  color: #0f0f27;
+  width: 330px;
+  height: 250px;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 30px 20px;
+  position: relative;
+}
+.earning-div-flex {
+  margin-bottom: 20px;
+}
+.earning-div-flex p {
+  font-size: 13px;
+  color: #fff;
+  padding-left: 5px;
+  font-weight: 700;
+}
+.earning-div-flex span {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+.withdraw-wrap button {
+  background: #19195e;
+  color: #ddddfa;
+  padding: 12px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 15px;
+}
+
+.referal-div-wrap {
+  background: linear-gradient(255.12deg, #242444 70%, #282844);
+  color: #ddddfa;
+  width: 70%;
+  height: 250px;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 30px 20px;
+  position: relative;
+}
+.ref-link-div {
+  background: #28284b;
+  padding: 10px 20px;
+  color: #ddddfa;
+  border-radius: 5px;
+  width: 86%;
+  font-weight: 700;
+}
+.ref-link-div p {
+  color: #ddddfa!important;
+}
+
+.flex-div-wrap,
+.flex-div-wrap-header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.ref-earning-wrap {
+  margin: 30px 0;
+}
+.flex-div-wrap p {
+  font-size: 14px;
+  opacity: 0.8;
+  word-break: break-all;
+}
+.ref-earning-wrap span {
+  color: #e2e4ff;
+  font-size: 30px !important;
+}
+.ref-earning-wrap {
+  margin: 30px 0;
+}
+.ref-earning-wrap p {
+  color : #ddddfa!important;
+}
+.flex-div-wrap p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.flex-div-wrap span {
+  color: #b7d2fa;
+  font-weight: 700;
+  font-size: 20px;
+}
+.ref-info-wrap {
+  margin-top: 30px;
+  font-size: 10px !important;
+}
+.ref-info-wrap p {
+  font-size: 12px !important;
+  color: #ddddfa !important;
+}
+.withdraw-btn {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 890px) {
+  .withdraw-referal-container {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .referal-div-wrap {
+    height: auto;
+    margin-top: 30px;
+    width: 80%;
+  }
+  .ref-info-wrap {
+    display: none;
+  }
+}
+
+.copy-div-wrap{
+  zoom : 1.5;
+}

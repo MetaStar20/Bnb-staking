@@ -1,0 +1,34 @@
+.staking-plans-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.anytime-plans-wrap {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 99%;
+  max-width: 97%;
+  margin-left: 19px;
+}
+
+.pannel-title {
+  margin-left: 20px !important;
+  margin-top: 40px !important;
+  margin-bottom: 10px !important;
+  font-size: 14px;
+}
+@media screen and (max-width: 876px) {
+  .anytime-plans-wrap{
+    justify-content: center;
+  }
+}
